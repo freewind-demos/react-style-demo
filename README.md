@@ -1,7 +1,7 @@
-React Props Demo
+React Style Demo
 ======================
 
-Pass value to other component as props.
+Use style in react components.
 
 ```
 npm install

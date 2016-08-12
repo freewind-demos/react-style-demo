@@ -2,8 +2,11 @@ import React,{Component} from 'react';
 
 class Hello extends Component {
 	render() {
+		const myStyle = {
+			backgroundColor: 'yellow'
+		};
 		return <div>
-		  <h1>Hello {this.props.name}</h1>
+		  <div style={myStyle}>Hello {this.props.name}</div>
 		</div>;
 	}
 }
